@@ -16,7 +16,6 @@ const r2BucketName = process.env.CLOUDFLARE_R2_BUCKET_NAME ?? "whispernet-media"
 
 const localBindingConfig = {
   main: "./worker/index.ts",
-  compatibility_flags: ["nodejs_compat"],
   d1_databases: d1
     ? [
         {
