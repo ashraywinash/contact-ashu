@@ -59,5 +59,8 @@ API routes, security settings, and free storage options.
 
 ## Deploy
 
-For your DuckDNS domain, use the Docker Compose and Caddy setup in
-[DEPLOYMENT.md](./DEPLOYMENT.md).
+If you are using Cloudflare D1 and R2, deploy fully on Cloudflare with
+[CLOUDFLARE_DEPLOYMENT.md](./CLOUDFLARE_DEPLOYMENT.md).
+
+The Docker/Caddy guide in [DEPLOYMENT.md](./DEPLOYMENT.md) is only for a
+self-hosted DuckDNS server path.
